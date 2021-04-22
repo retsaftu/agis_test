@@ -1,0 +1,36 @@
+.footer{
+	width: 100%;
+	height: 30vh;
+	background-color: #333;
+	margin: 0;
+}
+
+
+.vherh{
+	margin:  0 auto;
+	width: 80%;
+	height: 25vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.intro_subtitle_palka{
+	/* margin-bottom: 15px; */
+	font-size: 25px;
+	/*text-align: center;*/
+	color: #fff;
+		/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Indie Flower', cursive;
+}
+.palka{
+	display: block;
+	width: 3px;
+	height: 15vh;
+	background-color: #fff;
+}
+.niz{
+	width: 80%;
+	margin: 0 auto;
+	color: #fff;
+
+}

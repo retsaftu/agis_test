@@ -1,0 +1,8 @@
+.list{
+	display: flex;
+	width: 80%;
+	height: 70vh;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+}

@@ -1,0 +1,271 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #333;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+
+.intro {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100%;
+	height: 100vh;
+	background: url("../../assets/photo/photoHome/logo4.png") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	filter: inherit;
+
+}
+
+.intro_inner{
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+
+	text-align: center;
+}
+
+.intro_subtitle{
+	margin-bottom: 15px;
+	font-size: 100px;
+	/*text-align: center;*/
+	color: #fff;
+		/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Indie Flower', cursive;
+}
+.intro_subtitle2{
+	margin-bottom: 15px;
+	font-size: 100px;
+	/*text-align: center;*/
+	color: #fff;
+		/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Indie Flower', cursive;
+}
+
+.intro_title {
+	font-size: 125px;
+	font-weight: 700;
+	/*text-transform: uppercase;*/ /*херь для большого текста*/
+/*	text-align: center;*/
+	line-height: 1;
+	color: #fff;
+}
+
+.intro_subtitle2::after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 60px auto 60px;
+
+	background-color: #fff;
+}
+
+.header {
+	width: 100%;
+	padding-top: 30px;
+	position: absolute;
+
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.header_inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_logo {
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+
+}
+
+
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px 30px;
+
+	border: 3px solid #fff;
+
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	transition: background .1s;
+
+
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+/* aboutme */
+.information{
+	background-color: #fff;
+}
+.intro_kelesi{
+
+	font-size: 125px;
+
+
+
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Indie Flower', cursive;
+}
+.kelesi{
+
+
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+
+	text-align: center;
+
+}
+.aboutme {
+	position: relative;
+	height: 70vh;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.texttome{
+	width: 50%;
+	padding: 100px 0 100px 100px;
+}
+.photome{
+	position: sticky;
+	margin-right: 0;
+	top: 0;
+
+	width: 50%;
+	/* min-width: 50%; */
+	height: 70vh;
+}
+.photoimg{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	max-width: 450px;
+}
+.otstup{
+	height: 30vh;
+}
+
+.polosa{
+	width: 50%;
+
+	margin: 50px auto;
+
+	overflow: hidden;
+	background-color: #fff;
+}
+
+
+/* instagram */
+.team_info{
+	background-color: #fff;
+}
+
+.ability{
+	display: flex;
+	width: 80%;
+	height: 70vh;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ability_txt{
+	width: 300px;
+}
+
+.what_kind_of_ability{
+	text-align: center;
+}
+
+.proshanya{
+	display: flex;
+	width: 80%;
+	height: 60vh;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer{
+	position: absolute;
+	bottom: -330vh;
+	left: 0;
+	width: 100%;
+	height: 30vh;
+	background-color: #333;
+	margin: 0;
+
+
+
+}
+.vherh{
+	margin:  0 auto;
+	width: 80%;
+	height: 25vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.intro_subtitle_palka{
+	/* margin-bottom: 15px; */
+	font-size: 50px;
+	/*text-align: center;*/
+	color: #fff;
+		/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Indie Flower', cursive;
+}
+.palka{
+	display: block;
+	width: 3px;
+	height: 15vh;
+	background-color: #fff;
+}
+.niz{
+	width: 80%;
+	height: 5vh;
+	margin: 0 auto;
+	color: #fff;
+}
+.photo_thanks{
+	width: 50%;
+}
+.copy{
+	margin: 0 0 0 0;
+}

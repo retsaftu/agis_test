@@ -1,0 +1,18 @@
+.notFound {
+	display: flex;
+  align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background: url("../../assets/photo/error404/error404.png") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.intro_title {
+	font-size: 125px;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+}
